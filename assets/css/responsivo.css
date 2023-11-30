@@ -5,7 +5,7 @@
   }
 
   main .personagem .imagem {
-    height: 85%;
+    /* height: 85%; */
   }
 
   .conteudo {
@@ -21,7 +21,8 @@
   }
 
   .conteudo .descricao {
-    max-width: 500px;
+    max-width: 400px;
+    font-size: 16px;
   }
 
   .botoes {
@@ -29,6 +30,7 @@
     align-items: flex-end;
     width: 100%;
     padding: 30px;
+    margin-top: 15px;
   }
 
   .botoes .botao img {
@@ -38,7 +40,7 @@
 
 @media (max-width: 425px) {
   main .personagem .imagem {
-    height: auto;
+    min-height: auto;
   }
 
   .conteudo .logo {
@@ -54,12 +56,16 @@
     font-size: 24px;
   }
 
+  .conteudo .descricao {
+    font-size: 14px;
+  }
+
   .botoes {
     padding: 20px;
     top: -20%;
   }
 
   .botoes .botao {
-    max-width: 50px;
+    max-width: 60px;
   }
 }
